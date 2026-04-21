@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 90%; margin: auto; overflow: hidden; }
+        header { background: #35424a; color: #ffffff; padding: 20px; text-align: center; }
+        .kanban { display: flex; justify-content: space-between; } 
+        .board { background: #ffffff; border: 1px solid #ddd; margin: 10px; padding: 10px; flex-grow: 1; min-height: 400px; }
+        .sprint-info { margin: 20px 0; padding: 20px; background: #35424a; color: #ffffff; text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agile Dashboard</h1>
+    </header>
+    <div class="container">
+        <div class="sprint-info">
+            <h2>Sprint Information</h2>
+            <p><strong>Sprint 1: </strong> April 1 - April 14</p>
+        </div>
+        <div class="kanban">
+            <div class="board">
+                <h3>To Do</h3>
+                <ul>
+                    <li>Task 1</li>
+                    <li>Task 2</li>
+                </ul>
+            </div>
+            <div class="board">
+                <h3>In Progress</h3>
+                <ul>
+                    <li>Task 3</li>
+                </ul>
+            </div>
+            <div class="board">
+                <h3>Done</h3>
+                <ul>
+                    <li>Task 4</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
